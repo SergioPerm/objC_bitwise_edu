@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		841108B020D2883900A9C87D /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 841108AF20D2883900A9C87D /* Student.m */; };
 		845D3E5E20D1876800CDD124 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D3E5D20D1876800CDD124 /* AppDelegate.m */; };
 		845D3E6020D1876C00CDD124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845D3E5F20D1876C00CDD124 /* Assets.xcassets */; };
 		845D3E6320D1876C00CDD124 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845D3E6120D1876C00CDD124 /* LaunchScreen.storyboard */; };
@@ -33,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		841108AE20D2883900A9C87D /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		841108AF20D2883900A9C87D /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 		845D3E5920D1876800CDD124 /* BitwiseTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitwiseTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		845D3E5C20D1876800CDD124 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		845D3E5D20D1876800CDD124 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -102,6 +105,8 @@
 				845D3E6120D1876C00CDD124 /* LaunchScreen.storyboard */,
 				845D3E6420D1876C00CDD124 /* Info.plist */,
 				845D3E6520D1876C00CDD124 /* main.m */,
+				841108AE20D2883900A9C87D /* Student.h */,
+				841108AF20D2883900A9C87D /* Student.m */,
 			);
 			path = BitwiseTest;
 			sourceTree = "<group>";
@@ -255,6 +260,7 @@
 			files = (
 				845D3E6620D1876C00CDD124 /* main.m in Sources */,
 				845D3E5E20D1876800CDD124 /* AppDelegate.m in Sources */,
+				841108B020D2883900A9C87D /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

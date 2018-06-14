@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "Student.h"
 
 @interface AppDelegate ()
 
@@ -22,6 +23,17 @@
     self.window.rootViewController = [[UIViewController alloc] init];
     [self.window makeKeyAndVisible];
 
+    Student* stud = [[Student alloc] init];
+    
+//    stud.studiesAnatomy = true;
+//    stud.studiesEngineering = true;
+//    stud.studiesDevelopment = true;
+//    stud.studiesMath = true;
+
+    stud.subjectType = StudentSubjectTypeAnatomy | StudentSubjectTypeDevelopment | StudentSubjectTypeEngineering | StudentSubjectTypeMath;
+    
+    NSLog(@"%@",stud);
+    
     return YES;
 }
 
